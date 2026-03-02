@@ -183,25 +183,53 @@ footer {
     height: 3.4375rem;
 }
 
-form .btn {
-    cursor: pointer;
-    background-color: #fff;
-    width: 10.9375rem;
-    border: 1px solid #57534E;
-    border-radius: 0 0.25rem 0.25rem 0;
-    height: 3.4375rem;
-}
+    form .btn {
+        cursor: pointer;
+        background-color: #fff;
+        width: 10.9375rem;
+        border: 1px solid #57534E;
+        border-radius: 0 0.25rem 0.25rem 0;
+        height: 3.4375rem;
+        
+    }
 
-form .btn:hover {
-    background-color: #57534E;
-    color: #fff;
-}
+    form .btn:hover {
+        background-color: #57534E;
+        color: #fff;
+    }
+
+    .btn {
+        color: #000000;
+    }
   
 }
 
 @media screen and (min-width:980px) {
-
-    
+   .two-columns {
+        display: flex;
+        flex-wrap: nowrap;
+        
+        
+        
+   }
+   .two-columns > section {
+        flex: 1;
+   }
+   
+   .btn-center {
+        display: flex;
+        justify-content: flex-start;
+   }
+   .album {
+        flex: 1; 
+   } 
+  
+   .btn {
+        color: #000000;
+   }
+   footer p {
+    max-width: 60ch;
+   }
 }
 /* ***************** footer ***************** */
 
