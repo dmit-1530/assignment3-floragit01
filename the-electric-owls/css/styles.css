@@ -220,15 +220,68 @@ footer {
         display: flex;
         justify-content: flex-start;
    }
-   .album {
-        flex: 1; 
-   } 
+   
   
    .btn {
         color: #000000;
    }
    footer p {
     max-width: 60ch;
+   }
+}
+
+@media screen and (min-width:1920px) {
+    
+    header .container {
+        max-width: 1720px;
+    }
+    footer .container {
+        max-width: 1720px;
+    }
+    
+   .container {
+        
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        
+   }
+
+   main {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        max-width: 1720px;
+        margin: 0 auto;
+   }
+   .two-columns {
+        
+        flex: 2;
+        gap: 2rem;    
+   }
+   aside {
+    
+    flex: 1;
+    padding: 1rem 2rem;
+    
+   }
+   .two-columns > section {
+    flex: 1;
+   }
+     .btn-center {
+        display: flex;
+        justify-content: flex-start;
+   }
+   
+  
+   .btn {
+        color: #000000;
+   }
+   footer .container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        
    }
 }
 /* ***************** footer ***************** */
